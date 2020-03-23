@@ -145,6 +145,7 @@ END;
 
 Procedure Feladat8();
 var Darab:array[1..90] of integer;
+	Ujszamok:array[1..52, 1..5] of integer;
 	k:integer;
 	i:integer;
 BEGIN
@@ -157,9 +158,13 @@ BEGIN
 	Assign(fajl, 'lotto52.ki');
 	Reset(fajl);
 	
-	for i := 1 to 51 do BEGIN
+	for i := 1 to 52 do BEGIN
+		ReadLn(fajl, Ujszamok[i][1], Ujszamok[i][2], Ujszamok[i][3], Ujszamok[i][4], Ujszamok[i][5]);
+	END;
+	
+	for i := 1 to 52 do BEGIN
 		for k := 1 to 5 do BEGIN
-			Darab[Szamok[i][k]] := Darab[Szamok[i][k]] + 1;
+			Darab[Ujszamok[i][k]] := Darab[Ujszamok[i][k]] + 1;
 		END;
 	END;
 	
@@ -194,7 +199,7 @@ BEGIN
 		END;
 	END;
 	
-	for i := 2 to 51 do BEGIN
+	for i := 1 to 51 do BEGIN
 		for k := 1 to 5 do BEGIN
 			primek[Szamok[i][k]] := false; //Azokat a prímeket amelyeket kihúztak átállítom hamisra
 		END;
