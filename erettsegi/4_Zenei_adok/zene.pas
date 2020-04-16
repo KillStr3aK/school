@@ -1,6 +1,6 @@
 ﻿//Emelt érettségi 2006 október, https://www.informatikatanarok.hu/media/uploads/Informatika_erettsegi/Emelt/e_info_06okt_fl.pdf
 program zene;
-uses crt, sysutils; //sysutils->integer.ToString;
+uses crt;
 Type Adatok = record
 	Radio:integer;
 	Perc:integer;
@@ -48,42 +48,40 @@ BEGIN
 	END;
 END;
 
-Function Idoszamitas(masodperc:integer): string;
-var orak:integer = 0;
-	percek:integer = 0;
-BEGIN
-	orak := Trunc(masodperc/3600); //Trunc()-> eltünteti a tizedesjegyeket
-	masodperc := masodperc mod 3600;
-	percek := Trunc(masodperc / 60);
-	masodperc := masodperc mod 60;
-	
-	Idoszamitas := Concat(orak.ToString,':', percek.ToString,':', masodperc.ToString); //Próbáltam összepakolni a szöveget de csak így sikerült
-END;
-
 //Adja meg, mennyi idő telt el az első Eric Clapton szám kezdete és az utolsó Eric Clapton szám vége között az 1. adón! Az eredményt óra:perc:másodperc formában írja a képernyőre! 
 Procedure Feladat3();
 var i:integer;
-	masodperc:integer = 0;
-	{orak:integer = 0;
-	percek:integer = 0;}
+	masodperc:int64 = 0;
+	elso:integer = 0;
+	utolso:integer = 0;
+	orak:integer = 0;
+	percek:integer = 0;
 BEGIN
 	WriteLn('3. feladat:');
 	
 	for i := 1 to ossz do BEGIN
 		if(Musor[i].Radio = 1) then BEGIN
-			if(CompareStr(Musor[i].Cim[1..13], ' Eric Clapton') = 0) then BEGIN //Csak az első 13 karaktert hasonlítom össze, Azért használtam CompareStr()-t mert a sima if(Musor[i].Cim[1..13] = ' Eric Clapton')-re hibát kaptam
-				masodperc := masodperc + Musor[i].Masodperc + (Musor[i].Perc*60); //Összeadom a másodperceket és a perceket is átváltom másodpercbe
+			if not(Pos('Eric Clapton', Musor[i].Cim) = 0) then BEGIN
+				if(elso = 0) then BEGIN
+					elso := i;
+				END;
+				
+				utolso := i;
 			END;
 		END;
 	END;
 	
-	WriteLn(Idoszamitas(masodperc), ' telt el az első és utolsó Eric Clapton szám között');
+	for i := elso to utolso do BEGIN
+		if(Musor[i].Radio = 1) then BEGIN
+			masodperc := masodperc + Musor[i].Masodperc + (Musor[i].Perc*60); //Összeadom a másodperceket és a perceket is átváltom másodpercbe
+		END;
+	END;
 	
-	{orak := Trunc(masodperc/3600); //Ugyan az csak így nem lenne szükség a sysutilsra és a külön funkcióra sem
+	orak := masodperc div 3600;
 	masodperc := masodperc mod 3600;
-	percek := Trunc(masodperc / 60);
+	percek := masodperc div 60;
 	masodperc := masodperc mod 60;
-	WriteLn(orak, ':', percek, ':', masodperc, ' telt el az első és utolsó Eric Clapton szám között');}
+	WriteLn(orak, ':', percek, ':', masodperc, ' telt el az első és utolsó Eric Clapton szám között');
 END;
 
 //Amikor az „Omega:Legenda” című száma elkezdődött, Eszter rögtön csatornát váltott.
