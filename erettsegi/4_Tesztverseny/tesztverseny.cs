@@ -111,7 +111,7 @@ namespace tesztverseny
                     darab++;
             }
 
-            Console.WriteLine($"A feladatra {darab} fő, a versenyzők {(Versenyzok.Count / darab) * 100.0f}%-a adott helyes választ.\n");
+            Console.WriteLine($"A feladatra {darab} fő, a versenyzők {(darab / Versenyzok.Count) * 100.0f}%-a adott helyes választ.\n");
         }
 
         static void Feladat6()
