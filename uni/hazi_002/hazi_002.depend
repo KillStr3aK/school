@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1602596531 source:c:\minden\codeblocks\gyakorlas\hazi_002\main.c
+	<stdio.h>
+	<stdlib.h>
+
