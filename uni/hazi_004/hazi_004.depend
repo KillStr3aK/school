@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1603317709 source:a:\codeblocks\projects\hazi_004\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
