@@ -1,0 +1,160 @@
+<html lang = "hu">
+    <head>
+        <meta charset="UTF-8">
+        <title>CPU</title>
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <div>
+            <h1 style = "color: #005a96; text-align: center; margin-top: 15px;">Processzor</h1>
+            <hr class="trans--grow hr1">
+        </div>
+        <div style = "border: 2px solid #005a96; border-radius: 12px; margin-bottom: 15px;">
+            <table align = "center">
+                <tr>
+                    <th><a href = "#mukodes">MŰKÖDÉS</a></th>
+                    <th><a href = "#frekvencia">FREKVENCIA</a></th>
+                    <th><a href = "#tuningolas">TUNINGOLÁS</a></th>
+                    <th><a href = "#boostfrekvencia">BOOST FREKVENCIA</a></th>
+                    <th><a href = "#mag">MAG</a></th>
+                    <th><a href = "#foglalat">FOGLALAT</a></th>
+                </tr>
+            </table>
+        </div>
+        <p style = "color: white; text-align: center; margin-bottom: 30px;">
+            A <b>processzor</b> a személyi számítógépek, de például az okostelefonok központi feldolgozó egysége is.
+            Gyakran nevezik CPU-nak. A processzorokat nem egyetlen funkció érdekében gyártják, olyan módon működnek, amire az alkalmazásoknak éppen szükségük van.
+            Ugyanakkor irányítja a számítógép többi részét és a részvételük arányát a közös számítási munkában.</p>
+        <div style = "border: 2px solid #005a96; border-radius: 12px;">
+            <div id = "mukodes">
+                <hr class="trans--grow hr1">
+                <h1 class = "focim">MŰKÖDÉS</h1>
+                <div class = "reszlet">
+                    <p>
+                        A mai számítástechnikai rendszerek alapja, ahogy a processzoroké is, a bináris műveletek feldolgozása.
+                        A bináris vagy kettes számrendszer mindössze két állapotot tesz lehetővé, 0 és 1, amelyeket a processzoron belül nagyon egyszerűen lehet feszültségszintekkel létrehozni.
+                    </p>
+                    <p>
+                        Most az elektronikai kapcsolatok alacsonyabb szintjére lépünk. A processzor építőköve a tranzisztor, amely kapcsolóként működik.
+                        Feladata, hogy megváltoztassa a logikai nulla és egyes állapotát.
+                        Egyetlen tranzisztor nem lenne képes túl sok számítást elvégezni, így manapság a processzoron belül több milliárd tranzisztor található, amelyek lehetővé teszik a legösszetettebb műveletek végrehajtását is.
+                    </p>
+                    <p>
+                        Az egyes műveletek együttese olyan utasításokat képez, amelyek kötegeit programoknak nevezünk.
+                        A programok utasításai szekvenciálisak, ami azt jelenti, hogy a processzor az utasításokat egymás után hajtja végre az úgynevezett utasítási ciklusokban.
+                    </p>
+                </div>
+            </div>
+            <div id = "frekvencia">
+                <hr class="trans--grow hr1">
+                <h1 class = "focim">FREKVENCIA</h1>
+                <div class = "reszlet">
+                    <p>
+                        Ha a processzor funkcióját nagyon leegyszerűsítjük, azt állíthatjuk, hogy a tranzisztorok olyan nagyszámú rendszeréről van szó, amelyek gyorsan változtatják állapotukat a szükséges műveletek függvényében.
+                        A két impulzus közötti intervallumot frekvenciaciklusnak nevezzük. Ilyenkor a processzor képes tranzisztorait egyesbe, majd vissza nullába kapcsolni.
+                    </p>
+                    <img src = "img/frekvencia.png" width = "60%" title = "Processzor ciklus">
+                    <p>
+                        Az állapotváltozást nulláról egyre belépőélnek, az egyesről nullára változást pedig kilépőélnek nevezzük. Ezen ciklusok mennyisége egy másodperc alatt adja a processzor frekvenciáját.
+                        Az egysége a Hertz (Hz), és mivel a mai processzorok frekvenciája több milliárd Hertz, gyakran használjuk a giga (GHz) vagy a mega (MHz, millió Hertz) előtagot.
+                    </p>
+                    <p>
+                        A frekvenciát gyakran nevezik órajelnek vagy órajel-frekvenciának.
+                    </p>
+                    <p>
+                        A frekvencia az egyik fő tényező, amely hatással van a processzor teljesítményére.
+                        Leegyszerűsítve elmondható, hogy minél magasabb a frekvencia, annál nagyobb a teljesítmény.
+                        De ezt az állítást fenntartással kell kezelnünk.
+                        Ha két egyébként azonos processzor csak a frekvenciában különbözik, akkor a nagyobb frekvenciával rendelkező a hatékonyabb.
+                        Azonban más tényezők is hatással vannak a teljesítményre, mint pl. az architektúra, a magok száma stb., tehát csupán a magasabb frekvencia nem jelent fölényt.
+                        A többi processzor paraméterről később ejtünk szót.
+                    </p>
+                </div>
+            </div>
+            <div id = "tuningolas">
+                <hr class="trans--grow hr1">
+                <h1 class = "focim">TUNINGOLÁS</h1>
+                <div class = "reszlet">
+                    <p>
+                        A processzor tuningolása frekvenciájának növelése, esetleg csökkentése.
+                        A frekvencia megegyezik az alap órajel (BCLK) és a processzor szorzó összegével.
+                        A BCLK (az angol Base Clock rövidítése) az oszcillátor által az alaplapon generált frekvencia, amely a processzoron kívül, más frekvenciákat is befolyásol, például a memória órajelét, jellemzően 100 MHz-re van állítva.
+                        A processzor frekvenciája a legtöbb esetben módosítható. Vagy a BCLK változtatásával, amely a gyakori instabilitás miatt nem ajánlott, és az alaplapok többsége nem is támogatja, vagy a már említett szorzó értékének módosításával.
+                    </p>
+                </div>
+            </div>
+            <div id = "boostfrekvencia">
+                <hr class="trans--grow hr1">
+                <h1 class = "focim">BOOST FREKVENCIA</h1>
+                <div class = "reszlet">
+                    <p>
+                        Az Intel és AMD processzorok többsége képes saját frekvenciáját automatikusan beállítani.
+                        Ezt a Turbo Boost (Intel) és a Turbo Core (AMD) technológiák biztosítják, amelyek nagyon hasonló hatást fejtenek ki.
+                        Ha a processzort intenzíven használjuk, az ideiglenesen megnöveli frekvenciáját egészen a "boost" határig, hogy elegendő teljesítményt biztosítson.
+                        Ha ilyen teljesítményre nincs szükség, a frekvencia alacsonyabb marad, így energiát takarít meg.
+                    </p>
+                    <p>
+                        Az AMD azokba a processzoraiba, amelyek modellszáma X-el végződik, egy új Extended Frequency Range, röviden XFR elnevezésű technológiát implementált.
+                        Ez lehetővé teszi, hogy a processzor teljesítménye a boost határ fölé menjen, amennyiben ezt a processzor hőmérséklete engedi.
+                        Az ezzel a technológiával ellátott modellek kizárólag a hatékonyabb hűtéssel rendelkező felhasználók számára készültek.
+                        A csomagolásban általában található processzor hűtők ebben az esetben nem elégségesek, ezért ezeket a processzorokat az AMD hűtő nélkül forgalmazza.
+                        Az Intel hasonló politikát folytat a szorzózár nélküli processzorok esetében. Ezen a ponton érdemes megemlíteni, hogy minden AMD Ryzen processzor szorzózár nélküli.
+                    </p>
+                </div>
+            </div>
+            <div id = "mag">
+                <hr class="trans--grow hr1">
+                <h1 class = "focim">MAG</h1>
+                <div class = "reszlet">
+                    <p>
+                        A magokról tiszta lelkiismerettel elmondható, hogy ezek különálló számítási egységek.
+                        Egy többmagos processzor lényegében több darab egymagos processzor egybe integrálva.
+                        Mivel a magok függetlenek egymástól, lehetővé teszik, hogy a processzor egyszerre több különböző utasításon dolgozzon, több programot kezeljen egyszerre.
+                        Ez kulcsfontosságú a hatékony multitasking esetében. Napjainkban egyre több alkalmazás és játék képes kihasználni a több mag adta előnyöket.
+                    </p>
+                    <img src = "img/mag.png" width = "30%" height = "30%" title = "Processzor mag">
+                    <p>
+                        Az operációs rendszer szempontjából az utasítások párhuzamosan kezelt szálakra osztódnak, amelyek egy jól programozott alkalmazás esetében lehetővé teszik, hogy az gyorsabban fusson.
+                        Amíg az Intel néhány évvel ezelőtt be nem mutatta a  Hyper-Threading technológiát, normális volt, hogy egy processzor mag csak egyetlen szoftvert szálat tudott kezelni.
+                        Ma már a processzorok többsége olyan technológiával rendelkezik, amely lehetővé teszi, hogy egy fizikai mag két szálat dolgozzon fel.
+                        Emiatt ezeket a processzor szálakat szokták virtuális vagy logikai magoknak is nevezni.
+                    </p>
+                    <p>
+                        Fontos megjegyezni, hogy teljesítmény szempontjából a processzor szálak nem egyenértékűek egy fizikai maggal, mert megosztják velük a hardver eszközöket, ezért teljesítményük korlátozott.
+                        Bár az ilyen technológiát hatékonynak tekintjük, nem állíthatjuk, hogy egy négyszálas kétmagos processzor egyenértékű lenne egy négymagos processzorral.
+                    </p>
+                </div>
+            </div>
+            <div id = "foglalat">
+                <hr class="trans--grow hr1">
+                <h1 class = "focim">FOGLALAT</h1>
+                <div class = "reszlet">
+                    <p>
+                        A socket vagyis foglalat az egyik olyan paraméter, amelyet a processzor kiválasztásánál figyelembe kell vennünk, hogy az passzoljon az alaplapunkhoz.
+                        Ez lényegében egy csatlakozó, amelybe a processzort behelyezzük, majd lezárjuk.
+                        Figyelni kell a jelölésekre, mert ha az alaplap foglalata nem egyezik meg a processzoréval, akkor nemcsak, hogy nem fognak tudni együttműködni, a processzort be sem lehet helyezni a foglalatba.
+                        Lényegében két fő socket konstrukcióról beszélhetünk.
+                    </p>
+                    <img src = "img/foglalat.png" width = "30%" height = "30%" title = "Processzor foglalat">
+                    <p>
+                        Az elterjedtebb LGA a processzort érintkezőpadok segítségével kapcsolja össze az alaplappal.
+                        Az egyre inkább háttérbe szoruló PGA alapelve, hogy a processzoron lévő tűket az alaplap foglalatában lévő nyílásokba kell süllyeszteni.
+                    </p>
+                    <p>
+                        Az egyes aljzatok megnevezésükben is különböznek egymástól, és vásárlásnál főleg erre kell odafigyelni. Az Intel aktuális foglalata  LGA1151 az AMD foglalata pedig AM4 elnevezést kapott.
+                        Amennyiben a HEDT szegmens processzorai érdekelnének, akkor nem csak a chipek különböző architektúrájára, hanem a különböző foglalatokra is figyelni kell.
+                        Az AMD a Threadripper processzorok számára létrehozta a TR4 foglalatot, míg a sokéves tapasztalattal rendelkező Intel csak frissítette a régebbi HEDT foglalatot, és  LGA2066-nak nevezte el.
+                    </p>
+                </div>
+                <hr class="trans--grow hr1">
+            </div>
+        </div>
+        <footer>
+            <div>
+                <p style = "color: white; text-align: center;"><a href = "https://www.alza.hu/mi-a-processzor">Forrás</a></p>
+            </div>
+        </footer>
+    </body>
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src = "js/main.js"></script>
+</html>
