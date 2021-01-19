@@ -1,0 +1,5 @@
+Leclerc 1 30 29
+Gasly 1 33 45
+Hamilton 1 29 86
+Norris 1 31 45
+Vettel 1 30 18
