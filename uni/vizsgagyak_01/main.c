@@ -75,6 +75,7 @@ int readInt()
     while(scanf("%d", &num) != 1)
     {
         printf("Hibas adat!\n");
+        clearBuffer();
     }
 
     return num;
