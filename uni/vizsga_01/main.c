@@ -14,7 +14,7 @@ void printMatrix(int[ARR_SIZE][5]);
 
 int main()
 {
-    int oraAllas[ARR_SIZE] = { 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212};
+    int oraAllas[ARR_SIZE] = { 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212 };
     int fogyasztas[ARR_SIZE];
     fillArray(oraAllas, fogyasztas, ARR_SIZE);
     printArray(fogyasztas, ARR_SIZE);
