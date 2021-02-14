@@ -8,7 +8,7 @@
 #define DATE_FORMAT_DOT     "%d.%d.%d" /* yyyy.hh.dd */
 
 enum Months {
-    January = 1,
+    January = 0,
     February,
     March,
     April,
