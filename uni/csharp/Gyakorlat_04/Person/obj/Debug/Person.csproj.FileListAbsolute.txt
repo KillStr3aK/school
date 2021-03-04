@@ -1,0 +1,7 @@
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02\Person\bin\Debug\Person.exe.config
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02\Person\bin\Debug\Person.exe
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02\Person\bin\Debug\Person.pdb
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02\Person\obj\Debug\Person.csprojAssemblyReference.cache
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02\Person\obj\Debug\Person.csproj.CoreCompileInputs.cache
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02\Person\obj\Debug\Person.exe
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02\Person\obj\Debug\Person.pdb

@@ -1,0 +1,6 @@
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\bin\Debug\Gyakorlat_02_Book.exe.config
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\bin\Debug\Gyakorlat_02_Book.exe
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\bin\Debug\Gyakorlat_02_Book.pdb
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\obj\Debug\Book.csproj.CoreCompileInputs.cache
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\obj\Debug\Gyakorlat_02_Book.exe
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\obj\Debug\Gyakorlat_02_Book.pdb
