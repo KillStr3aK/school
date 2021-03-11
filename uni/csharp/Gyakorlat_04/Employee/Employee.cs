@@ -9,14 +9,17 @@ namespace EmployeeManagement
 
         public Employee() { }
 
+        public Employee(string name, long salary)
+        {
+            Name = name;
+            Salary = salary;
+        }
+
+        public Employee(string name) : this(name, 250000) { }
+
         public void IncreaseSalary(long salary)
         {
             Salary += salary;
-        }
-
-        public string Display()
-        {
-            return Name + " " + Salary;
         }
 
         public bool IsSalaryBetween(long min, long max)
@@ -32,6 +35,11 @@ namespace EmployeeManagement
         public bool HigherSalary(Employee employee)
         {
             return Salary > employee.Salary;
+        }
+
+        public override string ToString()
+        {
+            return Name + " " + Salary;
         }
     }
 }

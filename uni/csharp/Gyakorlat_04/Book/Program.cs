@@ -6,15 +6,8 @@ namespace Book
     {
         static void Main(string[] args)
         {
-            Book book = new Book
-            {
-                Name = "Book #1",
-                Author = "Author #1",
-                Release = 2021,
-                Price = 1000
-            };
-
-            Console.WriteLine(book.Get());
+            Book book = new Book("Book #1", "Author #1", 2021, 1000);
+            Console.WriteLine(book);
         }
     }
 }

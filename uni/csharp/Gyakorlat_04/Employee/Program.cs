@@ -30,7 +30,7 @@ namespace EmployeeManagement
                     highestSalary = i;
             }
 
-            Console.WriteLine($"Highest salary: {employees[highestSalary].Display()}");
+            Console.WriteLine($"Highest salary: {employees[highestSalary]}");
 
             int salaryCount = 0;
             for(int i = 0; i < employees.Length; i++)
