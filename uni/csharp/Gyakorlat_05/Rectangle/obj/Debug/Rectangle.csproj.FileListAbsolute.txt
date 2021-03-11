@@ -1,0 +1,7 @@
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Rectangle\bin\Debug\Rectangle.exe.config
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Rectangle\bin\Debug\Rectangle.exe
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Rectangle\bin\Debug\Rectangle.pdb
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Rectangle\obj\Debug\Rectangle.csprojAssemblyReference.cache
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Rectangle\obj\Debug\Rectangle.csproj.CoreCompileInputs.cache
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Rectangle\obj\Debug\Rectangle.exe
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Rectangle\obj\Debug\Rectangle.pdb

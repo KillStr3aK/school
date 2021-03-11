@@ -1,0 +1,7 @@
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Record\bin\Debug\Record.exe.config
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Record\bin\Debug\Record.exe
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Record\bin\Debug\Record.pdb
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Record\obj\Debug\Record.csprojAssemblyReference.cache
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Record\obj\Debug\Record.csproj.CoreCompileInputs.cache
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Record\obj\Debug\Record.exe
+A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_05\Record\obj\Debug\Record.pdb
