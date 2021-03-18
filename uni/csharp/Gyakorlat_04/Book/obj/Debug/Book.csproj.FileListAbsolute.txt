@@ -4,3 +4,10 @@ A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\bin\Debug\Gyakorlat_02_B
 A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\obj\Debug\Book.csproj.CoreCompileInputs.cache
 A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\obj\Debug\Gyakorlat_02_Book.exe
 A:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_02_Book\obj\Debug\Gyakorlat_02_Book.pdb
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_04\Book\bin\Debug\Gyakorlat_02_Book.exe.config
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_04\Book\bin\Debug\Gyakorlat_02_Book.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_04\Book\bin\Debug\Gyakorlat_02_Book.pdb
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_04\Book\obj\Debug\Book.csprojAssemblyReference.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_04\Book\obj\Debug\Book.csproj.CoreCompileInputs.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_04\Book\obj\Debug\Gyakorlat_02_Book.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_04\Book\obj\Debug\Gyakorlat_02_Book.pdb
