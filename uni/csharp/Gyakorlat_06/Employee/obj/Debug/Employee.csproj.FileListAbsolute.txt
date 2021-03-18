@@ -1,0 +1,7 @@
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_06\Employee\bin\Debug\Employee.exe.config
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_06\Employee\bin\Debug\Employee.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_06\Employee\bin\Debug\Employee.pdb
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_06\Employee\obj\Debug\Employee.csprojAssemblyReference.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_06\Employee\obj\Debug\Employee.csproj.CoreCompileInputs.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_06\Employee\obj\Debug\Employee.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_06\Employee\obj\Debug\Employee.pdb
