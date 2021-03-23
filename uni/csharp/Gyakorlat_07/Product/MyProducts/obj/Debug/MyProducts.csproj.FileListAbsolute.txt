@@ -1,0 +1,7 @@
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_07\Product\MyProducts\obj\Debug\MyProducts.csprojAssemblyReference.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_07\Product\MyProducts\obj\Debug\MyProducts.csproj.CoreCompileInputs.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_07\Product\MyProducts\bin\Debug\MyProducts.exe.config
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_07\Product\MyProducts\bin\Debug\MyProducts.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_07\Product\MyProducts\bin\Debug\MyProducts.pdb
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_07\Product\MyProducts\obj\Debug\MyProducts.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_07\Product\MyProducts\obj\Debug\MyProducts.pdb
