@@ -27,6 +27,29 @@ namespace Book
             LongestBook(books);
             LongestEvenBook(books);
             BookAuthors(books);
+
+            n = ReadIntCheck("Book style amount: ", 1, 10);
+            BookStyle[] bookStyles = new BookStyle[n];
+
+            for (int i = 0; i < bookStyles.Length; i++)
+            {
+                Console.WriteLine($"{i + 1}. Book");
+
+                Console.Write("Title: ");
+                string title = Console.ReadLine();
+
+                Console.Write("Author: ");
+                string author = Console.ReadLine();
+
+                int pages = ReadInt("Pages: ");
+
+                Console.Write("Style: ");
+                string style = Console.ReadLine();
+                bookStyles[i] = new BookStyle(title, author, pages, style);
+            }
+
+            PrintStyledBooks(bookStyles, "Scifi");
+            AveragePriceStyledBooks(bookStyles, "Scifi");
         }
 
         static void LongestBook(Book[] arr)
@@ -76,6 +99,40 @@ namespace Book
             {
                 Console.WriteLine($"{i.Key} {i.Value}");
             }
+        }
+
+        static void PrintStyledBooks(BookStyle[] bookStyles, string style)
+        {
+            foreach(BookStyle i in bookStyles)
+            {
+                if (string.Equals(i.Style, style))
+                    Console.WriteLine(i);
+            }
+        }
+
+        static long AveragePriceStyledBooks(BookStyle[] bookStyles, string style)
+        {
+            long averagePrice = 0;
+            foreach (BookStyle i in bookStyles)
+            {
+                if(string.Equals(i.Style, style))
+                    averagePrice += i.Price;
+            }
+
+            return averagePrice / bookStyles.Length;
+        }
+
+        static int ReadIntCheck(string msg, int min, int max)
+        {
+            Console.WriteLine(msg + $"({min} - {max})");
+
+            int num;
+            while(!int.TryParse(Console.ReadLine(), out num) || num < min || num > max)
+            {
+                Console.WriteLine("Invalid input");
+            }
+
+            return num;
         }
 
         static int ReadInt(string msg)
