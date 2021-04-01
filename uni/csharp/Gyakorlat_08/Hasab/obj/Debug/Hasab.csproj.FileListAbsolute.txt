@@ -1,0 +1,7 @@
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_08\Hasab\bin\Debug\Hasab.exe.config
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_08\Hasab\bin\Debug\Hasab.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_08\Hasab\bin\Debug\Hasab.pdb
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_08\Hasab\obj\Debug\Hasab.csprojAssemblyReference.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_08\Hasab\obj\Debug\Hasab.csproj.CoreCompileInputs.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_08\Hasab\obj\Debug\Hasab.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_08\Hasab\obj\Debug\Hasab.pdb
