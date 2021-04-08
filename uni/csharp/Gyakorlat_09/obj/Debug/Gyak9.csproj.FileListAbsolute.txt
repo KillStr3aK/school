@@ -1,0 +1,6 @@
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_09\Person\bin\Debug\Person.exe.config
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_09\Person\bin\Debug\Person.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_09\Person\bin\Debug\Person.pdb
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_09\Person\obj\Debug\Gyak9.csproj.CoreCompileInputs.cache
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_09\Person\obj\Debug\Person.exe
+D:\visual studio\UNI\gyakorlat\csharp\Gyakorlat_09\Person\obj\Debug\Person.pdb
